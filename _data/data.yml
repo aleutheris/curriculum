@@ -1,264 +1,203 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: António Eleutério
+    tagline: Software Engineer
+    avatar: profile.jpg  # 100x100 inside /assets/images/
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: ampeleuterio@gmail.com
+    phone: +31 6 11 839 228
+    timezone: CEST Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website:
+    linkedin: antónio-eleutério-02980145
+    xing:
+    github: Nat0ne
+    telegram:
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@nat0ne'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Portuguese
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
         - item: Snowboarding
           link:
 
-        - item: Cooking
+        - item: Football
+          link:
+
+        - item: Entrepreneurship
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I will create a Software Design based on your requirements, and implement it, adapting continually to your needs, with outstanding quality due to proper testing strategy.
+      If needed, I will also set up a team for you, running based on Agile and Scrum values.
+      I am driven by all the challenges that start with acquiring sensory data, until the very actuators' movements, and accomplishing them in a collaborative and interactive environment.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc Electrical and Computer Engineering
+        university: New University of Lisbon<br>
+                    Faculty of Science and Technology
+        time: 2007 - 2014
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Integrated Master in Electrical and Computer Engineering, which included subjects about
+          electronics, electricity, robotics, control systems, digital systems and software.<br>
+          I also had the opportunity to teach some of these subjects, as a Teaching Assistant.
+            - Theory of Electric Circuits
+            - Introduction to Programming in C
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: DevOps Engineer
+        time: 08/2023 - Present
+        company: ASML, Veldhoven, Netherlands
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Supported the migration of the whole ASML production code from ClearCase to GitHub.<br>
+          Had a major contribution to the Agile/Scrum WoW.
+
+      - role: High Tech Consultant
+        time: 04/2013 - Present
+        company: Akkodis, Eindhoven, Netherlands
+        details:
+
+      - role: Embedded Software Engineer
+        time: 09/2021 - 02/2023
+        company: Lightyear (Automotive), Helmond, Netherlands
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Creating the drivers and controllers for the Exterior sub-systems of the
+          Lightyear 0 car, consisting in developing the functions of the Exterior Lights,
+          Wipers, Latches and Window Regulators, using PiInnovo technology.
+          - Developing a Drive By Wire interface between the Controller and the EPAS,
+          using a STM32 development board.
+          - Organising the product backlog for my team in Jira, and helping to set the
+          Scrum framework.
+          - Helping in the hiring process of Software Engineers and Scrum Masters.
+
+      - role: Software Design Engineer
+        time: 02/2017 - 08/2021
+        company: ASML (Semiconductor), Veldhoven, Netherlands
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Developing and testing part of the calibration software for the TWINSCAN NXT
+          machine in Python, whose customer was the ASML factory.
+          - Developing and testing software in C++ for the Alignment Sensor of the TWINSCAN
+          NXT machine,  which contributed to having a throughput 10x faster, compared to
+          the previous sensor.
+          - Provide generic C++ support to several teams in the Metrology department.
+          - SAFe Scrum Master of a Feature Team and a System Team.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: IT Junior Consultant / Engineer
+        time: 06/2015 - 01/2017
+        company: Altran Portugal (Capgemini), Lisbon, Portugal
+        details: |
+          - Developing Car Multimedia software for ARM. CGI Studio was used for the
+          visualisation and C++ language for the behaviour.
+          - Research in Big Data for an Energy Industry solution. Setup and manage the
+          ecosystem,  using Cloudera Hadoop distributed systems.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: IT Consultant
+        time: 04/2014 - 05/2015
+        company: Deloitte Consulting, Lisbon, Portugal
+        details: |
+          - Research in Big Data, setting up and maintaining Cloudera Hadoop distributed systems.
+          - PL/SQL and Shell Script for ETL in a Business Intelligence system, developed for telcom.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - role: Teaching Assistant
+        time: 2011 - 2013
+        company: New University of Lisbon, Lisbon, Portugal
+        details: |
+          - Programming Microprocessors course (1 semester).
+          - Theory of Electric Circuits course (2 semesters).
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Paper publication.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Tracking a Mobile Robot Position Using Vision and Inertial Sensor
+        link: "https://link.springer.com/chapter/10.1007/978-3-642-54734-8_23"
+        authors: F. Coito, A. Eleuterio, Fernando Coito, and S. Valtchev
+        conference: DoCEIS14 - 5th Doctoral Conference on Computing, Electrical and Industrial Systems
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C/C++
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: HTML5
+        level: 75%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: MatLab
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: JavaScript (AngularJS)
+        level: 70%
 
-      - name: Sketch & Photoshop
+      - name: CAN BUS
         level: 60%
 
 footer: >

@@ -12,7 +12,7 @@ sidebar:
     email: ampeleuterio@gmail.com
     phone: +31 6 11 839 228
     timezone: CEST Timezone
-    citizenship:
+    citizenship: Portuguese
     website:
     linkedin: antónio-eleutério-02980145
     xing:
@@ -50,9 +50,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I will create a Software Design based on your requirements, and implement it, adapting continually to your needs, with outstanding quality due to proper testing strategy.
-      If needed, I will also set up a team for you, running based on Agile and Scrum values.
-      I am driven by all the challenges that start with acquiring sensory data, until the very actuators' movements, and accomplishing them in a collaborative and interactive environment.
+      I will create a Software Design based on your requirements, and implement it, adapting continually to your needs, with outstanding quality due to proper testing
+      strategy. If needed, I will also set up a team for you, running based on Agile and Scrum values.
+      I am driven by all the challenges that start with acquiring sensory data, until the very actuators' movements, and accomplishing them in a collaborative and
+      interactive environment.
 
 education:
     title: Education
@@ -62,8 +63,8 @@ education:
                     Faculty of Science and Technology
         time: 2007 - 2014
         details: |
-          Integrated Master in Electrical and Computer Engineering, which included subjects about
-          electronics, electricity, robotics, control systems, digital systems and software.<br>
+          Integrated Master in Electrical and Computer Engineering, which included subjects about electronics, electricity, robotics, control systems, digital systems
+          and software.<br>
           I also had the opportunity to teach some of these subjects, as a Teaching Assistant.
             - Theory of Electric Circuits
             - Introduction to Programming in C
@@ -75,8 +76,8 @@ experiences:
         time: 08/2023 - Present
         company: ASML, Veldhoven, Netherlands
         details: |
-          Supported the migration of the whole ASML production code from ClearCase to GitHub.<br>
-          Had a major contribution to the Agile/Scrum WoW.
+          Creating the tools developed in Python, whose purpose is to support the migration of the whole ASML production code from ClearCase to GitHub.<br>
+          Major contribution to the Agile/Scrum WoW.
 
       - role: High Tech Consultant
         time: 04/2013 - Present
@@ -87,35 +88,30 @@ experiences:
         time: 09/2021 - 02/2023
         company: Lightyear (Automotive), Helmond, Netherlands
         details: |
-          - Creating the drivers and controllers for the Exterior sub-systems of the
-          Lightyear 0 car, consisting in developing the functions of the Exterior Lights,
+          - Developed a Drive By Wire interface in C language between the Controller and the EPAS, using a STM32 development board, in order to enable the  Matlab
+          Simulink model to control the steering wheel.
+          - Created the drivers and controllers, in C language, for the Exterior sub-systems of the Lightyear 0 car, consisting in developing the functions of the
+          Exterior Lights,
           Wipers, Latches and Window Regulators, using PiInnovo technology.
-          - Developing a Drive By Wire interface between the Controller and the EPAS,
-          using a STM32 development board.
-          - Organising the product backlog for my team in Jira, and helping to set the
-          Scrum framework.
-          - Helping in the hiring process of Software Engineers and Scrum Masters.
+          - Often organised the Product Backlog for my team in Jira, and helped setting up the Scrum framework.
+          - Helped in the hiring process of Software Engineers and Scrum Masters.
 
       - role: Software Design Engineer
         time: 02/2017 - 08/2021
         company: ASML (Semiconductor), Veldhoven, Netherlands
         details: |
-          - Developing and testing part of the calibration software for the TWINSCAN NXT
-          machine in Python, whose customer was the ASML factory.
-          - Developing and testing software in C++ for the Alignment Sensor of the TWINSCAN
-          NXT machine,  which contributed to having a throughput 10x faster, compared to
-          the previous sensor.
-          - Provide generic C++ support to several teams in the Metrology department.
+          - Developed and tested part of the calibration software for the TWINSCAN NXT machine in Python, whose customer was the ASML factory.
+          - Developed and tested a reporting component for the Alignment Sensor (of the TWINSCAN) in C++,  which contributed to having a throughput 10x faster,
+          compared to the previous sensor.
+          - Provided C++ support to several teams in the Metrology department.
           - SAFe Scrum Master of a Feature Team and a System Team.
 
       - role: IT Junior Consultant / Engineer
         time: 06/2015 - 01/2017
         company: Altran Portugal (Capgemini), Lisbon, Portugal
         details: |
-          - Developing Car Multimedia software for ARM. CGI Studio was used for the
-          visualisation and C++ language for the behaviour.
-          - Research in Big Data for an Energy Industry solution. Setup and manage the
-          ecosystem,  using Cloudera Hadoop distributed systems.
+          - Developed a Car Multimedia HMI for ARM. CGI Studio was used for the visualisation and C++ language for the behaviour.
+          - Research in Big Data for an Energy Industry solution. Setup and manage the ecosystem, using Cloudera Hadoop distributed systems.
 
       - role: IT Consultant
         time: 04/2014 - 05/2015
@@ -201,4 +197,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

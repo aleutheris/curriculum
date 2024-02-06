@@ -56,10 +56,11 @@ career-profile:
       movements.<br>
       As a social being and for the purpose of growing and scaling businesses, I enjoy and
       nourish a healthy collaborative and interactive environment with the team goals in mind.<br>
-      As I became a creator, I am looking forward to creating Software Designs based on
-      your requirements, and implementing them, adapting continually to your needs, with
-      outstanding quality, due to proper testing strategy. If needed, I will also set up a
-      team for you, running based on Agile and Scrum values.
+      As I became a creator, I am looking forward to creating Software Designs based on your
+      requirements. I love having an end-to-end responsibility which includes the whole software
+      delivery lifecycle workflow, from getting the requirements, scribing documentation,
+      designing, testing, until the validation at the end customer. If needed, I will also
+      set up a team for you, running based on Agile and Scrum values.
 
 education:
     title: Education
@@ -187,8 +188,8 @@ publications:
       - title: Tracking a Mobile Robot Position Using Vision and Inertial Sensor
         link: "https://link.springer.com/chapter/10.1007/978-3-642-54734-8_23"
         authors: F. Coito, A. Eleuterio, Fernando Coito, and S. Valtchev
-        conference: DoCEIS14 - 5th Doctoral Conference on Computing, Electrical and Industrial
-        Systems
+        conference: |
+          DoCEIS14 - 5th Doctoral Conference on Computing, Electrical and Industrial Systems
 
 skills:
     title: Skills &amp; Proficiency
@@ -200,17 +201,23 @@ skills:
       - name: Python
         level: 80%
 
-      - name: HTML5
-        level: 75%
+      - name: Git
+        level: 85%
 
-      - name: MatLab
+      - name: Linux (user/admin)
+        level: 80%
+
+      - name: CAN BUS
         level: 70%
 
       - name: JavaScript (AngularJS)
         level: 70%
 
-      - name: CAN BUS
-        level: 60%
+      - name: HTML5
+        level: 70%
+
+      - name: MatLab
+        level: 65%
 
 footer: >
     Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

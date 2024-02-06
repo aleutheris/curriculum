@@ -50,10 +50,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I will create a Software Design based on your requirements, and implement it, adapting continually to your needs, with outstanding quality due to proper testing
-      strategy. If needed, I will also set up a team for you, running based on Agile and Scrum values.
-      I am driven by all the challenges that start with acquiring sensory data, until the very actuators' movements, and accomplishing them in a collaborative and
-      interactive environment.
+      Since my childhood, I have always been passionate about automated systems, able to
+      improve our quality of life in the most efficient ways. Now my passion goes deeper
+      into all the challenges that start with acquiring sensory data until the very actuators'
+      movements.<br>
+      As a social being and for the purpose of growing and scaling businesses, I enjoy and
+      nourish a healthy collaborative and interactive environment with the team goals in mind.<br>
+      As I became a creator, I am looking forward to creating Software Designs based on
+      your requirements, and implementing them, adapting continually to your needs, with
+      outstanding quality, due to proper testing strategy. If needed, I will also set up a
+      team for you, running based on Agile and Scrum values.
 
 education:
     title: Education
@@ -63,8 +69,8 @@ education:
                     Faculty of Science and Technology
         time: 2007 - 2014
         details: |
-          Integrated Master in Electrical and Computer Engineering, which included subjects about electronics, electricity, robotics, control systems, digital systems
-          and software.<br>
+          Integrated Master in Electrical and Computer Engineering, which included subjects
+          about electronics, electricity, robotics, control systems, digital systems and software.<br>
           I also had the opportunity to teach some of these subjects, as a Teaching Assistant.
             - Theory of Electric Circuits
             - Introduction to Programming in C
@@ -76,7 +82,8 @@ experiences:
         time: 08/2023 - Present
         company: ASML, Veldhoven, Netherlands
         details: |
-          Creating the tools developed in Python, whose purpose is to support the migration of the whole ASML production code from ClearCase to GitHub.<br>
+          Creating the tools developed in Python, whose purpose is to support the migration
+          of the whole ASML production code from ClearCase to GitHub.<br>
           Major contribution to the Agile/Scrum WoW.
 
       - role: High Tech Consultant
@@ -89,20 +96,24 @@ experiences:
         time: 09/2021 - 02/2023
         company: Lightyear (Automotive), Helmond, Netherlands
         details: |
-          - Developed a Drive By Wire interface in C language between the Controller and the EPAS, using a STM32 development board, in order to enable the  Matlab
-          Simulink model to control the steering wheel.
-          - Created the drivers and controllers, in C language, for the Exterior sub-systems of the Lightyear 0 car, consisting in developing the functions of the
-          Exterior Lights,
+          - Developing a Drive By Wire interface between the Controller (made with MatLab)
+           and the EPAS, via CAN, using an STM32 development board. The code run on top of
+           RTOS and enabled the Matlab Simulink model to control the steering wheel.
+          - Created the drivers and controllers, in C language, for the Exterior sub-systems
+          of the Lightyear 0 car, consisting in developing the functions of the Exterior Lights,
           Wipers, Latches and Window Regulators, using PiInnovo technology.
-          - Often organised the Product Backlog for my team in Jira, and helped setting up the Scrum framework.
+          - Often organised the Product Backlog for my team in Jira, and helped setting up
+          the Scrum framework.
           - Helped in the hiring process of Software Engineers and Scrum Masters.
 
       - role: Software Design Engineer
         time: 02/2017 - 08/2021
         company: ASML (Semiconductor), Veldhoven, Netherlands
         details: |
-          - Developed and tested part of the calibration software for the TWINSCAN NXT machine in Python, whose customer was the ASML factory.
-          - Developed and tested a reporting component for the Alignment Sensor (of the TWINSCAN) in C++,  which contributed to having a throughput 10x faster,
+          - Developed and tested part of the calibration software for the TWINSCAN NXT machine
+          in Python, whose customer was the ASML factory.
+          - Developed and tested a reporting component for the Alignment Sensor (of the TWINSCAN)
+          in C++,  which contributed to having a throughput 10x faster,
           compared to the previous sensor.
           - Provided C++ support to several teams in the Metrology department.
           - SAFe Scrum Master of a Feature Team and a System Team.
@@ -111,15 +122,18 @@ experiences:
         time: 06/2015 - 01/2017
         company: Altran Portugal (Capgemini), Lisbon, Portugal
         details: |
-          - Developed a Car Multimedia HMI for ARM. CGI Studio was used for the visualisation and C++ language for the behaviour.
-          - Research in Big Data for an Energy Industry solution. Setup and manage the ecosystem, using Cloudera Hadoop distributed systems.
+          - Developed a Car Multimedia HMI for ARM. CGI Studio was used for the visualisation
+          and C++ language for the behaviour.
+          - Research in Big Data for an Energy Industry solution. Setup and manage the ecosystem,
+          using Cloudera Hadoop distributed systems.
 
       - role: IT Consultant
         time: 04/2014 - 05/2015
         company: Deloitte Consulting, Lisbon, Portugal
         details: |
           - Research in Big Data, setting up and maintaining Cloudera Hadoop distributed systems.
-          - PL/SQL and Shell Script for ETL in a Business Intelligence system, developed for telcom.
+          - PL/SQL and Shell Script for ETL in a Business Intelligence system, developed for
+          telcom.
 
       - role: Teaching Assistant
         time: 2011 - 2013
@@ -173,7 +187,8 @@ publications:
       - title: Tracking a Mobile Robot Position Using Vision and Inertial Sensor
         link: "https://link.springer.com/chapter/10.1007/978-3-642-54734-8_23"
         authors: F. Coito, A. Eleuterio, Fernando Coito, and S. Valtchev
-        conference: DoCEIS14 - 5th Doctoral Conference on Computing, Electrical and Industrial Systems
+        conference: DoCEIS14 - 5th Doctoral Conference on Computing, Electrical and Industrial
+        Systems
 
 skills:
     title: Skills &amp; Proficiency

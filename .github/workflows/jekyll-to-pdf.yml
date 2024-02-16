@@ -13,7 +13,7 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.0 # Adjust the Ruby version as per your project's need
+        ruby-version: 3.2 # Adjust the Ruby version as per your project's need
 
     - name: Build Jekyll Site
       run: |

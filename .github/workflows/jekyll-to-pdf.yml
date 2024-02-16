@@ -13,7 +13,7 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7 # Adjust the Ruby version as per your project's need
+        ruby-version: 3.0 # Adjust the Ruby version as per your project's need
 
     - name: Build Jekyll Site
       run: |
@@ -28,7 +28,7 @@ jobs:
 
     - name: Convert Homepage to PDF
       run: |
-        wkhtmltopdf _site/index.html homepage.pdf
+        wkhtmltopdf index.html homepage.pdf
 
     - name: Upload PDF as Artifact
       uses: actions/upload-artifact@v2

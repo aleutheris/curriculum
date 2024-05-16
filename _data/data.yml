@@ -79,19 +79,18 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: DevOps Engineer
-        time: 08/2023 - Present
-        company: ASML, Veldhoven, Netherlands
-        details: |
-          Creating the tools developed in Python, whose purpose is to support the migration
-          of the whole ASML production code from ClearCase to GitHub.<br>
-          Major contribution to the Agile/Scrum WoW.
-
       - role: High Tech Consultant
         time: 04/2023 - Present
         company: Akkodis, Eindhoven, Netherlands
         details: |
 
+      - role: DevOps Engineer
+        time: 08/2023 - 12/2023
+        company: ASML, Veldhoven, Netherlands
+        details: |
+          Creating the tools developed in Python, whose purpose is to support the migration
+          of the whole ASML production code from ClearCase to GitHub.<br>
+          Major contribution to the Agile/Scrum WoW.
 
       - role: Embedded Software Engineer
         time: 09/2021 - 02/2023
@@ -206,6 +205,9 @@ skills:
 
       - name: Linux (user/admin)
         level: 80%
+
+      - name: Docker
+        level: 75%
 
       - name: CAN BUS
         level: 70%

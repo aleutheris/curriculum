@@ -5,7 +5,7 @@ sidebar:
 
     # Profile information
     name: António Eleutério
-    tagline: Freelancer Software Engineer
+    tagline: Freelance Software Engineer
     avatar: profile.jpg  # 100x100 inside /assets/images/
 
     # Sidebar links
@@ -20,7 +20,7 @@ sidebar:
     telegram:
     gitlab:
     bitbucket:
-    twitter:
+    twitter: https://x.com/aleutheris
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
